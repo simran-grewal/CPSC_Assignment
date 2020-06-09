@@ -12,3 +12,4 @@ csvlook first3sfo.csv
 echo "Top Three destination airports"
 cut -d',' -f18 2007.csv | sort | uniq -c | sort -nr | head -3 | sed 's/ /,/g' | csvlook
 
+#Simranjit Singh
